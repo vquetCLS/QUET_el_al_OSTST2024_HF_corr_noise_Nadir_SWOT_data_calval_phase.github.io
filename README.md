@@ -2,7 +2,7 @@
 
 ## Context
 
-The current GMSL uncertainty budget is described in Guerou et al 2023 ([GitHub Pages](https://egusphere.copernicus.org/preprints/2022/egusphere-2022-330/egusphere-2022-330.pdf)) and presented in the following figure.
+The current GMSL uncertainty budget is described in [Guerou et al 2023](https://egusphere.copernicus.org/preprints/2022/egusphere-2022-330/egusphere-2022-330.pdf) and presented in the following figure.
 
 ![alt text](https://github.com/vquetCLS/QUET_el_al_OSTST2024_HF_corr_noise_Nadir_SWOT_data_calval_phase.github.io/blob/main/uncertainty_budget.jpg?raw=true)
 
