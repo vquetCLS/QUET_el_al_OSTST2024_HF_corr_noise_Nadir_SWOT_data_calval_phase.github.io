@@ -50,3 +50,4 @@ There are no significant additional error between 1-month and 1-year differences
 ![alt text](https://github.com/vquetCLS/QUET_el_al_OSTST2024_HF_corr_noise_Nadir_SWOT_data_calval_phase.github.io/blob/main/evolution_uncertainties_triangle_trend.jpg?raw=true)
 ![alt text](https://github.com/vquetCLS/QUET_el_al_OSTST2024_HF_corr_noise_Nadir_SWOT_data_calval_phase.github.io/blob/main/evolution_uncertainties_triangle_acceleration.jpg?raw=true)
 
+![alt text](https://github.com/vquetCLS/QUET_el_al_OSTST2024_HF_corr_noise_Nadir_SWOT_data_calval_phase.github.io/blob/main/resulting_10years_trend_uncertainties.jpg?raw=true)
