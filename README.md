@@ -17,7 +17,28 @@ A better characterization of those high frequency correlated noise (red and oran
 
 ## Data
 
-Data used for this study was : Nadir SWOT SSHA (Sea Surface Height Anomaly) measurements from Cal/Val phase and DUACS SSHA grids.
+Data used for this study was : Nadir SWOT SSHA (Sea Surface Height Anomaly) measurements from Cal/Val phase and DUACS SSHA grids. SWOT theoretical ground track is illustrated on the following figure (sampling of the ocean available in this study):
+
+![alt text](https://github.com/vquetCLS/QUET_el_al_OSTST2024_HF_corr_noise_Nadir_SWOT_data_calval_phase.github.io/blob/main/SWOT_theoretical_ground_track.jpg?raw=true)
 
 The variable used was : $\Delta SSHA = SSHA_{SWOT} - SSHA_{DUACS}$. This variable contains **altimetry errors** and **natural oceanic variability** (not resolved by DUACS grids). 
 The objective is to characterize the **variance** of $\Delta SSHA$.
+
+## Description of results obtained 
+
+### Time Correlation and Variance Gain
+
+![alt text](https://github.com/vquetCLS/QUET_el_al_OSTST2024_HF_corr_noise_Nadir_SWOT_data_calval_phase.github.io/blob/main/time_corr_and_var_gain.jpg?raw=true)
+![alt text](https://github.com/vquetCLS/QUET_el_al_OSTST2024_HF_corr_noise_Nadir_SWOT_data_calval_phase.github.io/blob/main/time_corr_and_var_gain_xovers.jpg?raw=true)
+
+### Spatial Correlation
+
+![alt text](https://github.com/vquetCLS/QUET_el_al_OSTST2024_HF_corr_noise_Nadir_SWOT_data_calval_phase.github.io/blob/main/mean_per_box_SLA.jpg?raw=true)
+![alt text](https://github.com/vquetCLS/QUET_el_al_OSTST2024_HF_corr_noise_Nadir_SWOT_data_calval_phase.github.io/blob/main/explonation_of_the_method_spatial_correlation.jpg?raw=true)
+![alt text](https://github.com/vquetCLS/QUET_el_al_OSTST2024_HF_corr_noise_Nadir_SWOT_data_calval_phase.github.io/blob/main/spatial_corr.jpg?raw=true)
+
+### Impact on the GMSL parameters' associated uncertainties
+
+![alt text](https://github.com/vquetCLS/QUET_el_al_OSTST2024_HF_corr_noise_Nadir_SWOT_data_calval_phase.github.io/blob/main/evolution_uncertainties_triangle_trend.jpg?raw=true)
+![alt text](https://github.com/vquetCLS/QUET_el_al_OSTST2024_HF_corr_noise_Nadir_SWOT_data_calval_phase.github.io/blob/main/evolution_uncertainties_triangle_acceleration.jpg?raw=true)
+
