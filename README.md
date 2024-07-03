@@ -29,12 +29,14 @@ The objective is to characterize the **variance** of $\Delta SSHA$.
 ### Time Correlation and Variance Gain
 
 The variance of differences between measures from day $N$ and day $N+P$ was computed for all values of $P$ between 1 and 60 days. The result is illustrated in the following figure.
+
 ![alt text](https://github.com/vquetCLS/QUET_el_al_OSTST2024_HF_corr_noise_Nadir_SWOT_data_calval_phase.github.io/blob/main/time_corr_and_var_gain.jpg?raw=true)
 
 A first order system model and the alisasing of the tide signal (13-days periodic signal) is fitted to compute a **total variance** gain ($\Delta V$), and a **correlation time** ($5\tau$: $99\%$ of the variance gain is obtained).
 This leads to a characteristic correlation time of **$16.5$ $days$** and a total variance gain **$17$ $cm^{2}$**.
 
 A similar analysis was performed on crossover points from several altimetry missions (J3, S3A, S3B, S6A, AL) to obtain differences at larger temporal scales (1-month to 1-year differences). Results are presented in the following figure:
+
 ![alt text](https://github.com/vquetCLS/QUET_el_al_OSTST2024_HF_corr_noise_Nadir_SWOT_data_calval_phase.github.io/blob/main/time_corr_and_var_gain_xovers.jpg?raw=true)
 
 There are no significant additional error between 1-month and 1-year differences: the 2-months correlated noise will be replaced by **1-month correlated noise** ; and the **1-year correlated noise** will be **removed entirely** from the uncertainty budget of this study.
@@ -42,12 +44,15 @@ There are no significant additional error between 1-month and 1-year differences
 ### Spatial Correlation
 
 When computing the GMSL, along track SSHA data are averaged by $1° x 3°$ boxes (see next figure). To characterize this new definition of high correlated noise, it is mandatory to know how many of those boxes contain independant measures of this error. A characteristic correlation distance is needed to obtain this information.
+
 ![alt text](https://github.com/vquetCLS/QUET_el_al_OSTST2024_HF_corr_noise_Nadir_SWOT_data_calval_phase.github.io/blob/main/mean_per_box_SLA.jpg?raw=true)
 
 To do so, as one point of the SWOT theoretical ground track contains one time serie of $\Delta SSHA$ (one point per day), with two different points, the correlation between the two corresponding time series can be computed (see next figure).
+
 ![alt text](https://github.com/vquetCLS/QUET_el_al_OSTST2024_HF_corr_noise_Nadir_SWOT_data_calval_phase.github.io/blob/main/explonation_of_the_method_spatial_correlation.jpg?raw=true)
 
 This allows to compute the correlation as a function of the distance between two points. This computation was realized on different tracks (3 in the Atlantic Ocean, 3 in the Pacific Ocean) with along track comparisons (the two considered points were on the same track: continuous lines), and with across track comparisons (the two considered points were on two different tracks: two lonely points red and blue). Results are presented in the following figure:
+
 ![alt text](https://github.com/vquetCLS/QUET_el_al_OSTST2024_HF_corr_noise_Nadir_SWOT_data_calval_phase.github.io/blob/main/spatial_corr.jpg?raw=true)
 
 The correlation lenght (correlation distance) is then given by the integral of the square of the autocorrelation function. This leads to a correlation distance of approximately $100$ $km$.
