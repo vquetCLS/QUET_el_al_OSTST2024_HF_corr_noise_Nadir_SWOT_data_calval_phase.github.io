@@ -59,7 +59,15 @@ The correlation lenght (correlation distance) is then given by the integral of t
 
 ### Impact on the GMSL parameters' associated uncertainties
 
+Those results allow to build a new version of the GMSL uncertainty budget. Two lines are removed (2-months & 1-year correlated noise), and one line is added (1-month correlated noise obtained with this study). The two following figures illustrate uncertainties associated with the GMSL parameters' (trend & acceleration) with respect to the time period and the length of the studied period.
+
+The impact on the whole altimetry era (approximately 30 years) is a $10 \%$ difference uncertainties associated with both the trend and the acceleration between the current uncertainty budget and the one obtained with this study.
+
+It is important to notice that while the current uncertainty is probably over estimated, this one might be a little underestimated. We obtained an interval in which the real uncertainties probably are.
+
 ![alt text](https://github.com/vquetCLS/QUET_el_al_OSTST2024_HF_corr_noise_Nadir_SWOT_data_calval_phase.github.io/blob/main/evolution_uncertainties_triangle_trend.jpg?raw=true)
 ![alt text](https://github.com/vquetCLS/QUET_el_al_OSTST2024_HF_corr_noise_Nadir_SWOT_data_calval_phase.github.io/blob/main/evolution_uncertainties_triangle_acceleration.jpg?raw=true)
+
+Finally, the impact on the uncertainty associated with the trend over a 10-years period is illustrated in the following figure. As this study allows to get close to the scientific objectives, there is still a lot of work to do.
 
 ![alt text](https://github.com/vquetCLS/QUET_el_al_OSTST2024_HF_corr_noise_Nadir_SWOT_data_calval_phase.github.io/blob/main/resulting_10years_trend_uncertainties.jpg?raw=true)
